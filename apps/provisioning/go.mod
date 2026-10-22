@@ -1,6 +1,6 @@
 module github.com/grafana/grafana/apps/provisioning
 
-go 1.25.3
+go 1.26.0
 
 require (
 	github.com/fsnotify/fsnotify v1.9.0
@@ -13,7 +13,7 @@ require (
 	github.com/grafana/nanogit v0.0.0-20250723104447-68f58f5ecec0
 	github.com/migueleliasweb/go-github-mock v1.1.0
 	github.com/stretchr/testify v1.11.1
-	golang.org/x/oauth2 v0.31.0
+	golang.org/x/oauth2 v0.37.0
 	k8s.io/apimachinery v0.34.1
 	k8s.io/apiserver v0.34.1
 	k8s.io/client-go v0.34.1
